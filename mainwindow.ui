@@ -171,6 +171,7 @@ color: white;
     </property>
     <addaction name="actionNew_File"/>
     <addaction name="actionOpen_File"/>
+    <addaction name="actionSave_File"/>
    </widget>
    <addaction name="menuFile"/>
   </widget>
@@ -183,6 +184,11 @@ color: white;
   <action name="actionOpen_File">
    <property name="text">
     <string>Open File...</string>
+   </property>
+  </action>
+  <action name="actionSave_File">
+   <property name="text">
+    <string>Save File</string>
    </property>
   </action>
  </widget>

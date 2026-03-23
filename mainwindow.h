@@ -2,6 +2,13 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include <QFile>
+#include <QFileDialog>
+#include <QTextStream>
+#include <QProcess>
+#include <QTextEdit>
+#include <QString>
+#include <QIODevice>
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
@@ -24,6 +31,12 @@ private slots:
     void on_italicButton_clicked();
 
     void on_underlineButton_clicked();
+
+    void on_actionNew_File_triggered();
+
+    void on_actionOpen_File_triggered();
+
+    void on_actionSave_File_triggered();
 
 private:
     Ui::MainWindow *ui;
